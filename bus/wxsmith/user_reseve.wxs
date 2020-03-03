@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="user_reseve">
+		<size>906,560</size>
+		<id_arg>0</id_arg>
+		<handler function="OnClose" entry="EVT_CLOSE" />
+		<object class="wxToggleButton" name="ID_TOGGLEBUTTON1" variable="ToggleButton1" member="yes">
+			<label>LOG OUT</label>
+			<pos>792,16</pos>
+			<handler function="OnToggleButton1Toggle" entry="EVT_TOGGLEBUTTON" />
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+			<label>WELCOME BOOK YOUR RIDE </label>
+			<pos>168,24</pos>
+			<size>336,24</size>
+			<font>
+				<size>16</size>
+				<style>normal</style>
+				<weight>normal</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+			</font>
+			<style>wxST_NO_AUTORESIZE|wxALIGN_LEFT</style>
+		</object>
+		<object class="wxChoice" name="ID_CHOICE1" variable="Choice1" member="yes">
+			<pos>152,72</pos>
+			<handler function="OnChoice1Select" entry="EVT_CHOICE" />
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+			<label>ENTER SOURCE</label>
+			<pos>16,88</pos>
+			<size>80,13</size>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT3" variable="StaticText3" member="yes">
+			<label>ENTER DESTINATION</label>
+			<pos>16,144</pos>
+		</object>
+		<object class="wxChoice" name="ID_CHOICE2" variable="Choice2" member="yes">
+			<pos>152,136</pos>
+			<handler function="OnChoice2Select" entry="EVT_CHOICE" />
+		</object>
+		<object class="wxGrid" name="ID_GRID1" variable="Grid1" member="yes">
+			<cols>6</cols>
+			<rows>8</rows>
+			<collabels>
+				<item>source</item>
+				<item>destination</item>
+				<item>departure</item>
+				<item>cost</item>
+				<item>capacity</item>
+				<item>seat_avail</item>
+			</collabels>
+			<pos>0,176</pos>
+			<size>424,184</size>
+			<handler function="OnGrid1CellLeftClick" entry="EVT_CMD_GRID_CELL_LEFT_CLICK" />
+		</object>
+		<object class="wxToggleButton" name="ID_TOGGLEBUTTON2" variable="ToggleButton2" member="yes">
+			<label>CLICK TO SEARCH</label>
+			<pos>304,104</pos>
+			<size>179,23</size>
+			<handler function="OnToggleButton2Toggle" entry="EVT_TOGGLEBUTTON" />
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT4" variable="StaticText4" member="yes">
+			<label>HELLO!!!</label>
+			<pos>56,24</pos>
+			<size>88,24</size>
+			<font>
+				<size>16</size>
+				<style>normal</style>
+				<weight>normal</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+			</font>
+			<style>wxST_NO_AUTORESIZE|wxALIGN_LEFT</style>
+		</object>
+		<object class="wxGrid" name="ID_GRID2" variable="Grid2" member="yes">
+			<cols>6</cols>
+			<rows>8</rows>
+			<labelcolwidth>10</labelcolwidth>
+			<collabels>
+				<item>book_time</item>
+				<item>ride_date</item>
+				<item>source</item>
+				<item>destination</item>
+				<item>depart_time</item>
+				<item>price</item>
+			</collabels>
+			<pos>480,176</pos>
+			<size>424,192</size>
+		</object>
+		<object class="wxToggleButton" name="ID_TOGGLEBUTTON3" variable="ToggleButton3" member="yes">
+			<label>YOUR PREVIOUS BOOKING</label>
+			<pos>616,96</pos>
+			<size>248,23</size>
+			<handler function="OnToggleButton3Toggle" entry="EVT_TOGGLEBUTTON" />
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT5" variable="StaticText5" member="yes">
+			<label> ENTER THE NO OF TICKETS</label>
+			<pos>24,456</pos>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="TextCtrl1" member="yes">
+			<value>Text</value>
+			<pos>168,448</pos>
+			<size>152,21</size>
+			<handler function="OnTextCtrl1Text" entry="EVT_TEXT" />
+		</object>
+		<object class="wxDatePickerCtrl" name="ID_DATEPICKERCTRL1" variable="DatePickerCtrl1" member="yes">
+			<pos>168,392</pos>
+			<size>152,21</size>
+			<handler function="OnDatePickerCtrl1Changed" entry="EVT_DATE_CHANGED" />
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT6" variable="StaticText6" member="yes">
+			<label>PICK YOUR DATE</label>
+			<pos>72,400</pos>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT7" variable="StaticText7" member="yes">
+			<label>YOUR TOTAL AMOUNT</label>
+			<pos>40,504</pos>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT8" variable="StaticText8" member="yes">
+			<label>Label</label>
+			<pos>200,504</pos>
+		</object>
+		<object class="wxToggleButton" name="ID_TOGGLEBUTTON4" variable="ToggleButton4" member="yes">
+			<label>Label</label>
+			<pos>304,504</pos>
+			<handler function="OnToggleButton4Toggle" entry="EVT_TOGGLEBUTTON" />
+		</object>
+	</object>
+</wxsmith>

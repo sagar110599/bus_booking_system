@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="adminadd2">
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+		<handler function="OnClose" entry="EVT_CLOSE" />
+		<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+			<label>ADD NEW ADMIN HERE</label>
+			<pos>64,40</pos>
+			<size>288,32</size>
+			<font>
+				<size>18</size>
+				<style>normal</style>
+				<weight>normal</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face></face>
+			</font>
+			<style>wxST_NO_AUTORESIZE|wxALIGN_LEFT</style>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+			<label>username</label>
+			<pos>88,144</pos>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT3" variable="StaticText3" member="yes">
+			<label>password</label>
+			<pos>88,216</pos>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="TextCtrl1" member="yes">
+			<value>Text</value>
+			<pos>168,136</pos>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL2" variable="TextCtrl2" member="yes">
+			<value>Text</value>
+			<pos>168,208</pos>
+		</object>
+		<object class="wxToggleButton" name="ID_TOGGLEBUTTON1" variable="ToggleButton1" member="yes">
+			<label>add </label>
+			<pos>224,264</pos>
+			<size>131,23</size>
+			<handler function="OnToggleButton1Toggle" entry="EVT_TOGGLEBUTTON" />
+		</object>
+		<object class="wxToggleButton" name="ID_TOGGLEBUTTON2" variable="ToggleButton2" member="yes">
+			<label>back</label>
+			<pos>24,264</pos>
+			<handler function="OnToggleButton2Toggle" entry="EVT_TOGGLEBUTTON" />
+		</object>
+	</object>
+</wxsmith>

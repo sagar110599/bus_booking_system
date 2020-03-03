@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="Admin1">
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+		<handler function="OnClose" entry="EVT_CLOSE" />
+		<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="TextCtrl1" member="yes">
+			<pos>144,112</pos>
+			<size>152,21</size>
+		</object>
+		<object class="wxToggleButton" name="ID_TOGGLEBUTTON1" variable="ToggleButton1" member="yes">
+			<label>LOGIN</label>
+			<pos>152,264</pos>
+			<handler function="OnToggleButton1Toggle" entry="EVT_TOGGLEBUTTON" />
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+			<label>USERNAME</label>
+			<pos>64,120</pos>
+			<style>wxST_NO_AUTORESIZE|wxALIGN_LEFT</style>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL2" variable="TextCtrl2" member="yes">
+			<pos>144,176</pos>
+			<size>152,21</size>
+			<style>wxTE_PASSWORD</style>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT3" variable="StaticText3" member="yes">
+			<label>PASSWORD</label>
+			<pos>64,184</pos>
+			<size>72,13</size>
+		</object>
+		<object class="wxToggleButton" name="ID_TOGGLEBUTTON2" variable="ToggleButton2" member="yes">
+			<label>BACK</label>
+			<pos>296,16</pos>
+			<handler function="OnToggleButton2Toggle" entry="EVT_TOGGLEBUTTON" />
+		</object>
+	</object>
+</wxsmith>
